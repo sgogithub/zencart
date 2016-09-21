@@ -191,7 +191,7 @@ class espay extends base {
  		private function callApiProduct(){
  			$apikey = MODULE_PAYMENT_ESPAY_MERCHID;
  			
-	    	$url =  MODULE_PAYMENT_ESPAY_MODE == 'PRODUCTION'? 'https://116.90.162.172:812/rest/merchant/merchantinfo' : 'http://116.90.162.170:10809/rest/merchant/merchantinfo';
+	    	$url =  MODULE_PAYMENT_ESPAY_MODE == 'PRODUCTION'? 'https://api.espay.id/rest/merchant/merchantinfo' : 'https://sandbox-api.espay.id/rest/merchant/merchantinfo';
 //	        $url = 'http://116.90.162.170:10809/rest/merchant/merchantinfo';  
 //	        $key =   Mage::getStoreConfig('payment/espay/paymentid');
 	        $key = $apikey;//'7ea1d02c9fab152d9c82c9415870b876';  
