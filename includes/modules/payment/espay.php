@@ -127,7 +127,7 @@ class espay extends base {
 		$string = "\n".'<ul id="espay-payment-radio">'."\n";
 
 //		foreach ($select_array as $key=>$val) {
-//			$img = '<img src="https://secure.sgo.co.id/images/products/'.$val['productCode'].'.png" width="100px"> Payment Using '.$val['productName'].'';
+//			$img = '<img src="https://kit.espay.id/images/products/'.$val['productCode'].'.png" width="100px"> Payment Using '.$val['productName'].'';
 //			$string .= '<li id="' . strtolower( trim($key) ) . '-li"><span id="' . strtolower( trim($key) ) . '-span-begin"></span>
 //			<input type="radio" name="paymentType" id="paymentType" value="'.$val['productName'].','.$val['bankCode'].','.$val['productCode'].'"
 //			';
@@ -141,7 +141,7 @@ class espay extends base {
   			$string .= '<li id="' . strtolower( trim($key) ) . '-li">';
 			$string .='
 	   			<input type="radio" name="paymentType" id="paymentType" value="'.$val['productName'].','.$val['bankCode'].','.$val['productCode'].'"> 
-		   		<img align="middle" src="https://secure.sgo.co.id/images/products/'.$val['productCode'].'.png" width="90" height="80" style="border-radius:30px;background:#7dd4e1;padding:15px;border:4px solid #fff;"/>
+		   		<img align="middle" src="https://kit.espay.id/images/products/'.$val['productCode'].'.png" width="90" height="80" style="border-radius:30px;background:#7dd4e1;padding:15px;border:4px solid #fff;"/>
 				Payment Using '.$val['productName'].'
 		   ';
 			
