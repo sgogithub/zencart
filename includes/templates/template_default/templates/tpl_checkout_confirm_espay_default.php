@@ -85,7 +85,7 @@ if($select_orders_status == 'Waiting Payment'){
 					$_POST['productName'] = $productName;
 					$_POST['productCode'] = $productCode;
 					
-				    $urlserver = MODULE_PAYMENT_ESPAY_MODE == 'PRODUCTION'? 'https://kit.espay.id/public/signature/js' : 'http://sandbox-kit.espay.id/public/signature/js';
+				    $urlserver = MODULE_PAYMENT_ESPAY_MODE == 'PRODUCTION'? 'https://kit.espay.id/public/signature/js' : 'https://sandbox-kit.espay.id/public/signature/js';
 					$productCode = $_POST['productCode'];
 				    $bankCode = $_POST['bankCode'];
 				    $order_id_get = $zv_orders_id;
